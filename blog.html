@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog — 이민재</title>
+<meta name="description" content="이민재의 게임 개발 일지" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Minjae Lee</a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero hero--relative" style="min-height: 46vh;">
+  <p class="hero__eyebrow">JOURNAL</p>
+  <h1 class="hero__title" style="font-size: clamp(36px, 6vw, 64px);">
+    개발 일지
+  </h1>
+  <p class="hero__desc">
+    막힌 문제, 풀어낸 방법, 그리고 그 사이의 생각들.
+  </p>
+</section>
+
+<section class="section" style="padding-top: 40px;">
+  <div class="wrap">
+
+    <!-- 글 목록 화면: id가 없는 컨테이너 -->
+    <div id="post-list-view">
+      <div id="post-list" class="post-list"></div>
+      <p id="post-list-empty" class="empty-state" hidden>
+        아직 작성된 글이 없습니다. data/posts.json에 새 글을 추가해보세요.
+      </p>
+    </div>
+
+    <!-- 글 상세 화면: URL에 ?post=id 가 있을 때만 표시 -->
+    <div id="post-detail-view" hidden>
+      <a href="blog.html" class="back-link">목록으로</a>
+      <p class="post-detail__date" id="post-date"></p>
+      <h1 class="post-detail__title" id="post-title"></h1>
+      <div class="post-detail__body" id="post-body"></div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__links">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="blog.html">Blog</a>
+    <a href="mailto:dlalswo9793@ajou.ac.kr">Contact</a>
+  </div>
+  <p class="footer__copy">© 2026 Minjae Lee. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

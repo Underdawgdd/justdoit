@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — 이민재</title>
+<meta name="description" content="이민재의 게임 개발 프로젝트 포트폴리오" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Minjae Lee</a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero hero--relative" style="min-height: 56vh;">
+  <p class="hero__eyebrow">PORTFOLIO</p>
+  <h1 class="hero__title" style="font-size: clamp(36px, 6vw, 64px);">
+    만들고 있는 것들
+  </h1>
+  <p class="hero__desc">
+    기획, 시스템 설계, 구현까지 — 각 프로젝트에서 풀어낸 문제들을 소개합니다.
+  </p>
+</section>
+
+<div class="showcase">
+
+  <!-- Project 1: Fallen Light -->
+  <div class="showcase__item" id="fallen-light">
+    <div class="showcase__visual reveal" style="--visual-a:#1d1d1f; --visual-b:#4b2e83;">
+      Fallen Light Screenshot
+    </div>
+    <div class="showcase__text reveal reveal-delay-1">
+      <p class="showcase__eyebrow">Unity · Solo Project</p>
+      <h2 class="showcase__title">Fallen Light</h2>
+      <p class="showcase__desc">
+        클래스라는 틀에 갇히지 않고, 무기와 스킬 조합만으로 빌드를 완성해
+        나가는 2D 로그라이트 액션 플랫포머입니다. Skul의 클래스 전환
+        시스템에서 영감을 받아, 플레이어가 매 런마다 다른 전투 스타일을
+        발견하도록 설계하고 있습니다.
+      </p>
+      <div class="showcase__tags">
+        <span class="tag">Unity</span>
+        <span class="tag">C#</span>
+        <span class="tag">2D Platformer</span>
+        <span class="tag">Roguelite</span>
+      </div>
+      <a href="blog.html" class="btn btn--ghost">개발 일지 보기</a>
+    </div>
+  </div>
+
+  <!-- Project 2: 변방의 연대기 -->
+  <div class="showcase__item" id="frontier-chronicle">
+    <div class="showcase__visual reveal" style="--visual-a:#1d1d1f; --visual-b:#2e5d83;">
+      변방의 연대기 Screenshot
+    </div>
+    <div class="showcase__text reveal reveal-delay-1">
+      <p class="showcase__eyebrow">HTML / JS · Solo Project</p>
+      <h2 class="showcase__title">변방의 연대기</h2>
+      <p class="showcase__desc">
+        별도의 엔진이나 프레임워크 없이, 단일 HTML/JS 파일만으로 완결되는
+        중세 판타지 텍스트 어드벤처입니다. 선택에 따라 클래스가 전직되는
+        시스템을 중심으로, 텍스트만으로도 깊이 있는 세계관과 성장 경험을
+        전달하는 것을 목표로 하고 있습니다.
+      </p>
+      <div class="showcase__tags">
+        <span class="tag">HTML</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Text Adventure</span>
+        <span class="tag">Single-file</span>
+      </div>
+      <a href="blog.html" class="btn btn--ghost">개발 일지 보기</a>
+    </div>
+  </div>
+
+  <!-- Placeholder for future project -->
+  <div class="showcase__item">
+    <div class="showcase__visual reveal" style="--visual-a:#e8e8ed; --visual-b:#d2d2d7; color:#6e6e73;">
+      다음 프로젝트
+    </div>
+    <div class="showcase__text reveal reveal-delay-1">
+      <p class="showcase__eyebrow">Coming Soon</p>
+      <h2 class="showcase__title">새로운 아이디어를 준비 중입니다</h2>
+      <p class="showcase__desc">
+        이 자리는 다음 프로젝트를 위해 비워두었습니다. 새 프로젝트를
+        시작하면 이 섹션을 복사해서 내용을 채워 넣으면 됩니다.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer__links">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="blog.html">Blog</a>
+    <a href="mailto:dlalswo9793@ajou.ac.kr">Contact</a>
+  </div>
+  <p class="footer__copy">© 2026 Minjae Lee. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
